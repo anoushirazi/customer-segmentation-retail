@@ -41,6 +41,49 @@ customer-segmentation-retail/
 │   ├── evaluation.py
 │   ├── main.py
 │   └── utils.py
+
+## 🛠️ Techniques Used
+
+- **Data Cleaning & Preprocessing**
+- **Feature Engineering**
+  - Total & average spend
+  - Transaction counts
+- **Standardization & Encoding**
+- **Unsupervised Learning**
+  - KMeans (with Elbow & Silhouette analysis)
+  - DBSCAN & GMM clustering
+- **Dimensionality Reduction**
+  - PCA for visualization
+- **Model Saving**
+  - Using `joblib`
+- **Customer Segment Profiling**
+- **Actionable Marketing Recommendations**
+
+---
+
+## 🔍 Clustering Results
+
+| Cluster | Segment Description              | Suggested Action                 |
+|---------|----------------------------------|----------------------------------|
+| 0       | Young, high-spending             | Loyalty program                  |
+| 1       | Older, low-spending              | Reactivation email campaign      |
+| 2       | Frequent, low-value transactions | Bundle/upsell offers             |
+| 3       | High transaction count & spending| VIP program or priority tier     |
+
+✅ **Best Performing Model**: **KMeans + PCA** (Silhouette ≈ 0.55)
+
+---
+
+## 📈 Visualizations
+
+Key visual insights include:
+
+- 📌 Elbow & Silhouette Score plots for cluster optimization
+- 📌 PCA scatter plots showing cluster separation
+- 📌 Spending behavior by gender and age groups
+
+🗂️ All visualizations are saved in: `visuals/plots/`
+
 ├── models/
 │   ├── model.joblib              # Trained KMeans model
 │   └── scaler.joblib             # Fitted StandardScaler
