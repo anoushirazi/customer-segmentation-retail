@@ -1,4 +1,4 @@
-# 🧠 Customer Segmentation for Retail
+#  Customer Segmentation for Retail
 
 Customer segmentation using unsupervised machine learning and PCA to drive targeted marketing strategy in retail. This project demonstrates how to use transactional data to profile customer behavior and inform personalized campaigns.
 
