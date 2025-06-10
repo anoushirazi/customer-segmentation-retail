@@ -94,5 +94,5 @@ customer-segmentation-retail/
 │   ├── model.joblib              # Trained KMeans model
 │   └── scaler.joblib             # Fitted StandardScaler
 ├── visuals/
-│   └── plots/                    # PCA, Elbow, and cluster plots
+│   └── plots/                    # PCA, Elbow, and cluster plots.
 └── .gitignore
