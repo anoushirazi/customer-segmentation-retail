@@ -72,7 +72,7 @@ The goal of this project is to build a complete customer segmentation pipeline u
 
 ---
 
-## 📂 Folder Structure
+## 📂 Project Structure
 
 ```bash
 customer-segmentation-retail/
